@@ -27,7 +27,7 @@ async def main():
     # 3. Create the agent
     agent = create_agent(
         llm,
-        tools  
+        tools
     )
 
     # 4. Maintain a conversation history

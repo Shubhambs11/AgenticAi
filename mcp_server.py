@@ -12,7 +12,7 @@ def show_running_containers():
 @mcp.tool
 def show_all_containers():
     """Tool 1 : show Running Containers"""
-    result = subprocess.run(["docker", "ps" "-a"], capture_output=True, text=True)
+    result = subprocess.run(["docker", "ps","-a"], capture_output=True, text=True)
     return result.stdout
 
 @mcp.tool
