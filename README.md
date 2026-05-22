@@ -211,8 +211,4 @@ Without the comma, Python silently **concatenates** `"ps"` and `"-a"` into the s
 
 ---
 
-## 📝 License
-
-This project is open for learning and experimentation. Use it freely.
-
 
